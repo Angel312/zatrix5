@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.multirepo" name="Multi Repo" version="5.0.0" provider-name="Angel">
+	<extension point="xbmc.addon.repository" name="Multi Repository">
+    <dir>
+			<info compressed="false">https://magnetic.website/__zips/addons.xml</info>
+            <checksum>https://magnetic.website/__zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://magnetic.website/__zips/</datadir>
+    </dir>
+    <dir>
+			<info compressed="false">https://raw.githubusercontent.com/thecrewwh/zips/master/_zip/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/thecrewwh/zips/master/_zip/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/thecrewwh/zips/master/_zip</datadir>
+    </dir>
+    <dir>
+		    <info compressed="false">https://raw.githubusercontent.com/therealatreides/houseatreides/master/_housefiles/addons.xml</info>
+	        <checksum>https://raw.githubusercontent.com/therealatreides/houseatreides/master/_housefiles/addons.xml.md5</checksum>
+	        <datadir zip="true">https://raw.githubusercontent.com/therealatreides/houseatreides/master/_housefiles/</datadir>
+    </dir>
+    <dir>
+            <info compressed="false">http://luxurywizard.space/_repo/addons.xml</info>
+            <checksum>http://luxurywizard.space/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://luxurywizard.space/_repo/</datadir>
+    </dir>
+    <dir>
+		      <info compressed="false">https://k.slyguy.xyz/.repo/addons.xml</info>
+		      <checksum>https://k.slyguy.xyz/.repo/addons.xml.md5</checksum>
+		      <datadir zip="true">https://k.slyguy.xyz/.repo/</datadir>
+    </dir>
+    <dir>
+			<info>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml</info>
+			<checksum>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/CastagnaIT/repository.castagnait/raw/master/zip</datadir>
+	</dir>
+    <dir>
+			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openmeta/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openmeta/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openmeta/master/zips/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml</info>
+	        <checksum>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml.crc</checksum>
+	        <datadir>https://github.com/newt-sc/a4kSubtitles/archive</datadir>
+	        <artdir>https://github.com/a4k-openproject/a4kSubtitles/releases/download/v0.0.13</artdir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Official Zatrix Project multi repo</summary>
+		<description lang="en">Download and install addons from difrom diffrent repos</description>
+		<platform>all</platform>
+	</extension>
+</addon>
