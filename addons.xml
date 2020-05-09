@@ -75,13 +75,13 @@
     </dir>
     <dir>
             <info compressed="false">https://luxurywizard.space/_repo/addons.xml</info>
-            <checksum>http://luxurywizard.space/_repo/addons.xml.md5</checksum>
+            <checksum>https://luxurywizard.space/_repo/addons.xml.md5</checksum>
             <datadir zip="true">https://luxurywizard.space/_repo/</datadir>
     </dir>
     <dir>
-			<info compressed="false">https://k.slyguy.xyz/.repo/addons.xml</info>
-			<checksum>https://k.slyguy.xyz/.repo/addons.xml.md5</checksum>
-			<datadir zip="true">https://k.slyguy.xyz/.repo/</datadir>
+		      <info compressed="false">https://k.slyguy.xyz/.repo/addons.xml</info>
+		      <checksum>https://k.slyguy.xyz/.repo/addons.xml.md5</checksum>
+		      <datadir zip="true">https://k.slyguy.xyz/.repo/</datadir>
     </dir>
     <dir>
 			<info>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml</info>
