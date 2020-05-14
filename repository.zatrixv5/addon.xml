@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.zatrixv5" name="Zatrix v5 Repo" version="1.0.2" provider-name="Angel">
+<addon id="repository.zatrixv5" name="Zatrix v5 Repo" version="1.0.3" provider-name="Angel">
 	<extension point="xbmc.addon.repository" name="Zatrix Repository">
 	<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Angel312/pg1zatrix/master/addons.xml</info>
@@ -20,6 +20,11 @@
 			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+	</dir>
+	<dir>
+		    <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
 	</dir>
 	<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
