@@ -94,12 +94,11 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.menu5" name="Zatrix Menu 5" version="1.0.8" provider-name="ANNE">
+<addon id="plugin.video.menu5" name="Zatrix Menu 5" version="1.0.9" provider-name="ANNE">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>executable</provides>
+  <extension point="xbmc.python.pluginsource">
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Menu van de Zatrix Built</summary>
@@ -255,6 +254,26 @@
         <source></source>
         <forum></forum>
     </extension>
+</addon>
+
+<addon id="service.coreelec.settings"
+       name="CoreELEC Configuration"
+       version="9.0.1"
+       provider-name="CoreELEC">
+   <requires>
+   	<import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py"></extension>
+  <extension point="xbmc.service"       library="service.py" start="startup"></extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">CoreELEC Configuration</summary>
+    <description lang="en">Use this addon to manage your CoreELEC system's underlying operating system. From here you can manage the entire system so you don't have to worry about what runs under the hood.[CR][CR]From here you can change your network connectivity, your keyboard layout and language and enable/disable remote access including Samba and SSH.</description>
+    <platform>all</platform>
+    <assets>
+    <icon>resources/skins/Default/media/icon.png</icon>
+    <fanart>resources/skins/Default/media/fanart.png</fanart>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="skin.zatrix.5" name="Zatrix skin 5.0" provider-name="Anne" version="1.0.0">
