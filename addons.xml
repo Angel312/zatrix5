@@ -258,7 +258,7 @@
 
 <addon id="service.coreelec.settings"
        name="CoreELEC Configuration"
-       version="9.0.1"
+       version="9.0.2"
        provider-name="CoreELEC">
    <requires>
    	<import addon="xbmc.python" version="2.1.0"/>
