@@ -57,9 +57,9 @@
 
 </addon>
 
-<addon id="plugin.program.zatrix20" name="Update Tools Zatrix v5" version="2020.0.3" provider-name="ANNE">
+<addon id="plugin.program.zatrix20" name="Update Tools Zatrix v5" version="2020.0.4" provider-name="ANNE">
   <requires>
-    	<import addon="xbmc.python" version="2.1.0"/>
+    	<import addon="xbmc.python" version="2.25.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
@@ -238,9 +238,9 @@
 	</extension>
 </addon>
 
-<addon id="script.zatrix.loguploader" name="Zatrix Log Uploader" version="1.0.0" provider-name="ANNE">
+<addon id="script.zatrix.loguploader" name="Zatrix Log Uploader" version="1.0.1" provider-name="ANNE">
     <requires>
-        <import addon="xbmc.python" version="2.20.0"/>
+        <import addon="xbmc.python" version="2.25.0"/>
     </requires>
     <extension point="xbmc.python.script" library="default.py">
         <provides>executable</provides>
