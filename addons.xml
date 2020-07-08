@@ -112,7 +112,7 @@
   </extension>
 </addon>
 
-<addon id="repository.multirepo" name="Multi Repo" version="5.0.2" provider-name="Angel">
+<addon id="repository.multirepo" name="Multi Repo" version="5.0.3" provider-name="Angel">
 	<extension point="xbmc.addon.repository" name="Multi Repository">
 	<dir>
 			<info compressed="false">https://magnetic.website/__zips/addons.xml</info>
@@ -135,9 +135,14 @@
 			<datadir zip="true">https://k.slyguy.xyz/.repo/</datadir>
 	</dir>
 	<dir>
-			<info>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml</info>
+			<info compressed="false">https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml</info>
 			<checksum>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/CastagnaIT/repository.castagnait/raw/master/zip</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages/</datadir>
 	</dir>
 	<dir>
 			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
@@ -158,7 +163,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Official Zatrix Project multi repo</summary>
-		<description lang="en">Download and install addons from diffrent repos</description>
+		<description lang="en">Download and install addons from difrom diffrent repos</description>
 		<platform>all</platform>
 	</extension>
 </addon>
