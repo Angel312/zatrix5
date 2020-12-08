@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.sportrepo" name="Sport Multi Repo" version="5.0.2" provider-name="Angel">
+<addon id="repository.sportrepo" name="Sport Multi Repo" version="5.0.5" provider-name="Angel">
 	<extension point="xbmc.addon.repository" name="Sport Multi Repository">
-	<dir>
-			<info compressed="false">https://luxurywizard.space/_repo/addons.xml</info>
-			<checksum>https://luxurywizard.space/_repo/addons.xml.md5</checksum>
-			<datadir zip="true">https://luxurywizard.space/_repo/</datadir>
-	</dir>
 	<dir>
 			<info compressed="false">http://mullafabz.xyz/Plugins/addons.xml</info>
 			<checksum>http://mullafabz.xyz/Plugins/addons.xml.md5</checksum>
@@ -26,6 +21,11 @@
 			<info compressed="false">https://raw.githubusercontent.com/nemesis668/repository.streamarmy/master/addons.xml</info>
         	<checksum>https://raw.githubusercontent.com/nemesis668/repository.streamarmy/master/addons.xml.md5</checksum>
         	<datadir zip="true">https://raw.githubusercontent.com/nemesis668/repository.streamarmy/master/zips/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">https://loopaddon.uk/zips/addons.xml</info>
+			<checksum>https://loopaddon.uk/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://loopaddon.uk/zips/</datadir>
 	</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
