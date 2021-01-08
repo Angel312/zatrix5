@@ -112,7 +112,7 @@
   </extension>
 </addon>
 
-<addon id="repository.multirepo" name="Multi Repo" version="5.0.3" provider-name="Angel">
+<addon id="repository.multirepo" name="Multi Repo" version="5.0.4" provider-name="Angel">
 	<extension point="xbmc.addon.repository" name="Multi Repository">
 	<dir>
 			<info compressed="false">https://magnetic.website/__zips/addons.xml</info>
@@ -133,6 +133,11 @@
 			<info compressed="false">https://k.slyguy.xyz/.repo/addons.xml</info>
 			<checksum>https://k.slyguy.xyz/.repo/addons.xml.md5</checksum>
 			<datadir zip="true">https://k.slyguy.xyz/.repo/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/packages</datadir>
 	</dir>
 	<dir>
 			<info compressed="false">https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml</info>
