@@ -94,7 +94,47 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.menu5" name="Zatrix Menu 5" version="1.0.11" provider-name="ANNE">
+<addon id="plugin.video.discoveryplus" version="1.3.2" name="discovery+" provider-name="Dis90">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+  <import addon="script.module.requests" version="2.9.1"/>
+  <import addon="script.module.inputstreamhelper" version="0.2.4"/>
+  <import addon="inputstream.adaptive" version="2.0.4"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="addon.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">discovery+</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en"></disclaimer>
+  <assets>
+    <icon>resources/icon.png</icon>
+    <fanart>resources/fanart.png</fanart>
+  </assets>
+  <news></news>
+</extension>
+</addon>
+
+<addon id="plugin.video.IPTV.community" name="IPTV Community" version="1.0" provider-name="iptv.community">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="init.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">IPTV Community</summary>
+    <website>https://iptv.community/</website>
+    <description lang="en">IPTV Addon for IPTV Community</description>
+    <forum>https://iptv.community/</forum>
+    <email>support@iptv.community</email>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.menu5" name="Zatrix Menu 5" version="1.0.12" provider-name="ANNE">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
