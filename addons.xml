@@ -94,7 +94,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.discoveryplus" version="1.4.0" name="discovery+" provider-name="Dis90">
+<addon id="plugin.video.discoveryplus" version="1.4.2" name="discovery+" provider-name="Dis90">
 <requires>
   <import addon="xbmc.python" version="2.24.0"/>
   <import addon="script.module.requests" version="2.9.1"/>
