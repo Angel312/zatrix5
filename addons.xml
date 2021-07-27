@@ -94,7 +94,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.discoveryplus" version="1.5.14" name="discovery+" provider-name="Dis90">
+<addon id="plugin.video.discoveryplus" version="1.5.15" name="discovery+" provider-name="Dis90">
 <requires>
   <import addon="xbmc.python" version="2.24.0"/>
   <import addon="script.module.requests" version="2.9.1"/>
@@ -104,6 +104,7 @@
 <extension point="xbmc.python.pluginsource" library="addon.py">
   <provides>video</provides>
 </extension>
+<extension point="xbmc.service" library="services.py"/>
 <extension point="xbmc.addon.metadata">
   <summary lang="en">discovery+</summary>
   <description lang="en"></description>
@@ -134,7 +135,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.menu5" name="Zatrix Menu 5" version="1.0.12" provider-name="ANNE">
+<addon id="plugin.video.menu5" name="Zatrix Menu 5" version="1.0.13" provider-name="ANNE">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -152,7 +153,7 @@
   </extension>
 </addon>
 
-<addon id="repository.multirepo" name="Multi Repo" version="5.0.5" provider-name="Angel">
+<addon id="repository.multirepo" name="Multi Repo" version="5.0.6" provider-name="Angel">
 	<extension point="xbmc.addon.repository" name="Multi Repository">
 	<dir>
 			<info compressed="false">https://magnetic.website/__zips/addons.xml</info>
@@ -163,11 +164,6 @@
 			<info compressed="false">https://raw.githubusercontent.com/thecrewwh/zips/master/_zip/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/thecrewwh/zips/master/_zip/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/thecrewwh/zips/master/_zip</datadir>
-	</dir>
-	<dir>
-			<info compressed="false">https://raw.githubusercontent.com/therealatreides/houseatreides/master/_housefiles/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/therealatreides/houseatreides/master/_housefiles/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/therealatreides/houseatreides/master/_housefiles/</datadir>
 	</dir>
 	<dir>
 			<info compressed="false">https://k.slyguy.xyz/.repo/addons.xml</info>
