@@ -94,7 +94,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.discoveryplus" version="1.5.21" name="discovery+" provider-name="Dis90">
+<addon id="plugin.video.discoveryplus" version="1.5.24" name="discovery+" provider-name="Dis90">
 <requires>
   <import addon="xbmc.python" version="2.24.0"/>
   <import addon="script.module.requests" version="2.9.1"/>
@@ -114,6 +114,13 @@
     <fanart>resources/fanart.png</fanart>
   </assets>
   <news>
+    v1.5.24 (14.9.2021)
+    - Fixed season list when data contains empty collection
+    v1.5.23 (19.8.2021)
+    - New setting for only listing seasons in season listing (EU countries)
+    - If setting for hiding non season categories from seasons page is enabled, you can enable setting for flatten TV show seasons if only one season (EU countries)
+    v1.5.22 (14.8.2021)
+    - Promoted items are now displayed (rows with large banner but no title) - European countries
     v1.5.21 (26.7.2021)
     - Fixed season list displaying wrong metadata in some European countries
   </news>
@@ -262,7 +269,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.zatrixv5" name="Zatrix v5 Repo" version="1.0.3" provider-name="Angel">
+<addon id="repository.zatrixv5" name="Zatrix v5 Repo" version="1.0.4" provider-name="Angel">
 	<extension point="xbmc.addon.repository" name="Zatrix Repository">
 	<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Angel312/pg1zatrix/master/addons.xml</info>
@@ -270,19 +277,9 @@
 			<datadir zip="true">https://raw.githubusercontent.com/Angel312/pg1zatrix/master/</datadir>
 	</dir>
 	<dir>
-			<info compressed="false">https://raw.githubusercontent.com/Angel312/pg1zatrix_common/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Angel312/pg1zatrix_common/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Angel312/pg1zatrix_common/master/</datadir>
-	</dir>
-	<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Angel312/zatrix5/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Angel312/zatrix5/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Angel312/zatrix5/master/</datadir>
-	</dir>
-	<dir>
-			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
 	</dir>
 	<dir>
 		    <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
