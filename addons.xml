@@ -94,7 +94,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.discoveryplus" version="1.5.24" name="discovery+" provider-name="Dis90">
+<addon id="plugin.video.discoveryplus" version="1.6.7" name="discovery+" provider-name="Dis90">
 <requires>
   <import addon="xbmc.python" version="2.24.0"/>
   <import addon="script.module.requests" version="2.9.1"/>
@@ -114,6 +114,31 @@
     <fanart>resources/fanart.png</fanart>
   </assets>
   <news>
+    v1.6.7 (19.12.2021)
+    - Playback progress updating is now blocked only for Live TV
+    - Fix realmservice on Kodi 18
+    v1.6.6 (19.12.2021)
+    - Fixes to realmservice in case folder or file is missing
+    v1.6.5 (18.12.2021)
+    - Fix channel pages with only livestream
+    - Country specific content rating system (mpaa)
+    - Rename favorites to My List (context menu add/remove from My List)
+    - Get country specific configs from discovery+ realm service. No more hard coded values (except d+ India)
+    - Fix for listing shows without seasons when seasonsonly setting is set to true
+    - Home -> For You -> Networks or Network Rail is now translated to Channels
+    v1.6.4 (15.12.2021)
+    - More fixes and improvements to EPG data (European countries)
+    - Option to set cookie in add-on settings
+    v1.6.3 (14.12.2021)
+    - Fix listing Shows page (UK)
+    v1.6.2 (14.12.2021)
+    - Support for switching profile (US and EU)
+    - Fix EPG for sport events (European countries)
+    v1.6.1 (14.12.2021)
+    - Fix IPTV Manager EPG (European countries)
+    v1.6.0 (13.12.2021)
+    - Support for new API in European countries. You need to get new cookies from browser.
+    - Updated player properties to same in all countries.
     v1.5.24 (14.9.2021)
     - Fixed season list when data contains empty collection
     v1.5.23 (19.8.2021)
