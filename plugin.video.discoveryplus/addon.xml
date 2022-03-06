@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.discoveryplus" version="1.6.7" name="discovery+" provider-name="Dis90">
+<addon id="plugin.video.discoveryplus" version="1.6.16" name="discovery+" provider-name="Dis90">
 <requires>
   <import addon="xbmc.python" version="2.24.0"/>
   <import addon="script.module.requests" version="2.9.1"/>
   <import addon="script.module.inputstreamhelper" version="0.2.4"/>
   <import addon="inputstream.adaptive" version="2.4.6"/>
+  <import addon="script.module.routing" version="0.2.0" />
 </requires>
-<extension point="xbmc.python.pluginsource" library="addon.py">
+<extension point="xbmc.python.pluginsource" library="default.py">
   <provides>video</provides>
 </extension>
 <extension point="xbmc.service" library="services.py"/>
 <extension point="xbmc.addon.metadata">
+  <reuselanguageinvoker>true</reuselanguageinvoker>
   <summary lang="en">discovery+</summary>
   <description lang="en"></description>
   <disclaimer lang="en"></disclaimer>
@@ -19,6 +21,37 @@
     <fanart>resources/fanart.png</fanart>
   </assets>
   <news>
+    v1.6.16 (21.2.2022)
+    - Cache is no longer used in seasons page when sync playback and season markers is turned on. Fixes updating watched status of the season when going back from episodes listing.
+    - Up Next now only recommends to watch episodes from same TV show
+    - Minor fixes
+    v1.6.15 (16.2.2022)
+    - Added setting for showing watched season markers (default is off). Can slown down listing seasons page.
+    - Code improvements
+    v1.6.14 (10.2.2022)
+    - Code improvements
+    - You can now also mark seasons as watched or unwatched
+    - Dutch translation (thanks to djdirty60)
+    - If you are using IPTV Manager you need to refresh channels from IPTV Manager settings also 
+      if you are using Kodi favorites you need to re-add them after this update because of changes made to add-on internal urls
+    v1.6.13 (4.2.2022)
+    - You can now mark videos as watched or unwatched
+    - Minor fixes
+    v1.6.12 (1.2.2022)
+    - Fix sport genre artwork
+    - Add Home -> For You -> Continue Watching (US and EU)
+    - Change video aired date from airDate to earliestPlayableStart
+    - Code cleanup
+    - Other minor fixes
+    v1.6.11 (22.1.2022)
+    - Minor fixes
+    v1.6.10 (21.1.2022)
+    - Minor fixes
+    v1.6.9 (8.1.2022)
+    - Fix empty channels (IPTV Manager integration)
+    - Add reuselanguageinvoker to addon.xml (possible speed up for loading data)
+    v1.6.8 (23.12.2021)
+    - Enable or disable DRM from settings
     v1.6.7 (19.12.2021)
     - Playback progress updating is now blocked only for Live TV
     - Fix realmservice on Kodi 18
