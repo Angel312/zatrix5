@@ -462,7 +462,7 @@
 
 <addon id="service.vpn.manager"
        name="VPN Manager for OpenVPN"
-       version="7.4.1"
+       version="7.4.2"
        provider-name="Zomboided">
   <requires>
     <import addon="xbmc.python" version="2.7.0"/>
