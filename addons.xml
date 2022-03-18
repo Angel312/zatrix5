@@ -277,7 +277,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.tvone111" name="tvOne111" version="24" provider-name="RACC">
+<addon id="plugin.video.tvone111" name="tvOne111" version="v24" provider-name="RACC">
   <requires>
     <import addon="xbmc.python" version="2.7.0"/>
     <import addon="script.module.pycryptodome"/>
