@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.multirepo" name="Multi Repo" version="5.0.7" provider-name="Angel">
+<addon id="repository.multirepo" name="Multi Repo" version="5.0.8" provider-name="Angel">
 	<extension point="xbmc.addon.repository" name="Multi Repository">
 	<dir>
 			<info compressed="false">https://magnetic.website/__zips/addons.xml</info>
@@ -17,9 +17,9 @@
 			<datadir zip="true">https://k.slyguy.xyz/.repo/</datadir>
 	</dir>
 	<dir minversion="18.0">
-			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/repo/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/repo/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/repo/zips/</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/leia/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/leia/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/leia/zips/</datadir>
 	</dir>
 	<dir>
 			<info compressed="false">https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml</info>
