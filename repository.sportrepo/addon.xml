@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.sportrepo" name="Sport Multi Repo" version="5.0.8" provider-name="Angel">
+<addon id="repository.sportrepo" name="Sport Multi Repo" version="5.0.9" provider-name="Angel">
 	<extension point="xbmc.addon.repository" name="Sport Multi Repository">
 	<dir>
 		<info compressed="false">https://raw.githubusercontent.com/mullafabz/RT/master/Plugins/addons.xml</info>
@@ -32,9 +32,9 @@
 		<datadir zip="true">https://loopaddon.uk/zips/</datadir>
 	</dir>
 	<dir>
-		<info compressed="false">http://www.ezzer-mac.com/_repo/addons.xml</info>
-		<checksum>http://www.ezzer-mac.com/_repo/addons.xml.md5</checksum>
-		<datadir zip="true">http://www.ezzer-mac.com/_repo/</datadir>
+		<info compressed="false">https://www.ezzer-mac.com/_repo/addons.xml</info>
+		<checksum>https://www.ezzer-mac.com/_repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://www.ezzer-mac.com/_repo/</datadir>
 	</dir>
 	<dir>
 		<info compressed="false">https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml</info>
